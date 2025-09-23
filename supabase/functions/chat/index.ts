@@ -20,7 +20,7 @@ serve(async (req) => {
       throw new Error('Missing required fields');
     }
 
-    const openAIApiKey = Deno.env.get('OPENAI_API_KEY');
+    const openAIApiKey = "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"
     if (!openAIApiKey) {
       throw new Error('OpenAI API key not configured');
     }
